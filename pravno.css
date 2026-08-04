@@ -1,0 +1,47 @@
+/* Pravne podstrani — pogoji.html, zasebnost.html */
+.pravna-stran { background: var(--krem); }
+
+.pravna-stran .site-header { position: sticky; }
+
+.nav-links-simple,
+.nav-links-simple.nav-links {
+  gap: 1rem;
+  position: static;
+  flex-direction: row;
+  max-height: none;
+  overflow: visible;
+  background: none;
+  border: none;
+}
+
+.nav-links-simple a { color: var(--roza-temna); font-weight: 500; }
+
+.pravno {
+  max-width: 720px;
+  padding: 3rem 0 4.5rem;
+}
+
+.pravno h1 { margin-bottom: 0.4rem; }
+
+.pravno-meta {
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  margin-bottom: 2.2rem;
+}
+
+.pravno h2 {
+  font-size: 1.35rem;
+  margin: 2rem 0 0.6rem;
+}
+
+.pravno p { margin-bottom: 0.9rem; }
+
+.pravno a { color: var(--roza-temna); }
+
+.pravno-okvir {
+  background: var(--blush);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.3rem;
+  line-height: 1.8;
+}
+
